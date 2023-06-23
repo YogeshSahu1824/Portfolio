@@ -15,12 +15,12 @@ import "swiper/css/pagination";
 
 // import required modules
 import { EffectCoverflow, Pagination } from "swiper";
-import Me1 from "../../assets/about1.jpeg";
-import Me2 from "../../assets/about2.jpg";
-import Me3 from "../../assets/about3.jpg";
-// import Me4 from "../../assets/about4.jpg";
-import Me5 from "../../assets/about5.jpg";
-import Me6 from "../../assets/about6.jpg";
+import Me1 from "../../assets/about10.jpg";
+import Me2 from "../../assets/about20.jpg";
+import Me3 from "../../assets/about30.jpg";
+import Me4 from "../../assets/about40.jpg";
+import Me5 from "../../assets/about50.jpg";
+import Me6 from "../../assets/about60.jpg";
 const About = () => {
   
   return (
@@ -57,9 +57,9 @@ const About = () => {
           <SwiperSlide className="about_meimg">
             <img src={Me3} alt="About Image" />
           </SwiperSlide>
-          {/* <SwiperSlide className="about_meimg">
+          <SwiperSlide className="about_meimg">
             <img src={Me4} alt="About Image" />
-          </SwiperSlide> */}
+          </SwiperSlide>
           <SwiperSlide className="about_meimg">
             <img src={Me5} alt="About Image" />
           </SwiperSlide>
