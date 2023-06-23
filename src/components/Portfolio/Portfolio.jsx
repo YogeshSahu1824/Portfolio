@@ -1,11 +1,9 @@
 import React from "react";
 import "./Portfolio.css";
-import IMG1 from "../../assets/portfolio1.jpg";
-import IMG2 from "../../assets/portfolio2.jpg";
-import IMG3 from "../../assets/portfolio3.jpg";
-import IMG4 from "../../assets/portfolio4.jpg";
-import IMG5 from "../../assets/portfolio5.png";
-import IMG6 from "../../assets/portfolio6.jpg";
+import IMG1 from "../../assets/images.jpeg";
+import IMG2 from "../../assets/icoder.jpeg";
+import IMG3 from "../../assets/news.jpeg";
+import IMG4 from "../../assets/fooddevery.jpg";
 const data=[
   {
     id:1,
@@ -13,7 +11,8 @@ const data=[
     title:"Snake Game",
     github:'https://github.com/YogeshSahu1824/Snakegame',
     demo:"#",
-    demonam:"None"
+    demonam:"None",
+    Targer:"_blank"
   },
   {
     id:2,
@@ -21,7 +20,8 @@ const data=[
     title:"iCoder",
     github:'https://github.com/YogeshSahu1824/iCoder',
     demo:"https://yogeshsahu1824.github.io/iCoder/",
-    demonam:"Live Demo"
+    demonam:"Live Demo",
+    Targer:"_blank"
     
   },
   {
@@ -30,15 +30,18 @@ const data=[
     title:"News App",
     github:'https://github.com/YogeshSahu1824/NewsAPP',
     demo:"#",
-    demonam:'None'
+    demonam:'None',
+    Targer:"_blank"
   },
   {
     id:4,
     image:IMG4,
     title:"Food Oder",
-    github:'https://github.com',
-    demo:"#",
-    demonam:"None"
+    github:'https://github.com/YogeshSahu1824/foodresposive',
+    demo:"https://yogeshsahu1824.github.io/foodresposive/",
+    demonam:"Live Now",
+    Targer:"_blank"
+    
   }
 ]
 const Portfolio = () => {
@@ -48,7 +51,7 @@ const Portfolio = () => {
       <h2>Portfolio</h2>
       <div className="container portfolio_container">
          {
-          data.map(({id,image,title,github,demo,demonam})=>
+          data.map(({id,image,title,github,demo,demonam,Targer})=>
           {
             return(
 
@@ -62,7 +65,7 @@ const Portfolio = () => {
                 <div className="portfolio_item-cta">
                   <a href={github} className="btn" target="blank_">Github</a>
                  
-                    <a href={demo} className="btn btn-pirmary" target="blank_">{demonam}</a>
+                    <a href={demo} className="btn btn-pirmary" target={Targer}>{demonam}</a>
                   
                   
                 </div>

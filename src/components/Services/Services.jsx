@@ -37,19 +37,24 @@ const Services = () => {
           <ul className="service_list">
             <li>
             <BiCheck className='service-icon'/>
-            <p>Lorem ipsum dolor sit amet consectetur.</p>
+            <p>Tailor-made web applications built from scratch to meet specific client needs.</p>
             </li>
             <li>
             <BiCheck className='service-icon'/>
-            <p>Lorem ipsum dolor sit amet consectetur.</p>
+            <p>Focus on delivering user-friendly interfaces and seamless user experiences.
+</p>
             </li>
             <li>
             <BiCheck className='service-icon'/>
-            <p>Lorem ipsum dolor sit amet consectetur.</p>
+            <p>Proficiency in HTML, CSS, and JavaScript to create visually appealing websites.</p>
             </li>
             <li>
             <BiCheck className='service-icon'/>
-            <p>Lorem ipsum dolor sit amet consectetur.</p>
+            <p>Emphasis on responsive design for optimal viewing across devices.</p>
+            </li>
+            <li>
+            <BiCheck className='service-icon'/>
+            <p>Also provide single page applications</p>
             </li>
           </ul>
         </article>
@@ -60,19 +65,20 @@ const Services = () => {
           <ul className="service_list">
             <li>
             <BiCheck className='service-icon'/>
-            <p>Lorem ipsum dolor sit amet consectetur.</p>
+            <p>Problem-solving skills consist of a set of abilities that help you identify a problem,propose solutions, choose the best one, and implement it</p>
             </li>
             <li>
             <BiCheck className='service-icon'/>
-            <p>Lorem ipsum dolor sit amet consectetur.</p>
+            <p>Problem-solving combines a bunch of other skills such as critical thinking,decision making, and information analysis. </p>
+            </li>
+           
+            <li>
+            <BiCheck className='service-icon'/>
+            <p>Problem-solving skills help us determine the source of a problem and find an effective solution</p>
             </li>
             <li>
             <BiCheck className='service-icon'/>
-            <p>Lorem ipsum dolor sit amet consectetur.</p>
-            </li>
-            <li>
-            <BiCheck className='service-icon'/>
-            <p>Lorem ipsum dolor sit amet consectetur.</p>
+            <p> It's a valued skill in many job</p>
             </li>
           </ul>
         </article>

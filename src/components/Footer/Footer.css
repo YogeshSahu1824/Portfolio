@@ -53,6 +53,9 @@ footer a{
     font-size: 1rem;
 
 }
+ul li a{
+    cursor: pointer;
+}
 /* ---------------------======================Media Query==================- */
 /* @media (min-width: 601px) and (max-width: 1024px)  */
 /* @media screen and (max-width: 1234px) 

@@ -18,7 +18,7 @@ import { EffectCoverflow, Pagination } from "swiper";
 import Me1 from "../../assets/about1.jpeg";
 import Me2 from "../../assets/about2.jpg";
 import Me3 from "../../assets/about3.jpg";
-import Me4 from "../../assets/about4.jpg";
+// import Me4 from "../../assets/about4.jpg";
 import Me5 from "../../assets/about5.jpg";
 import Me6 from "../../assets/about6.jpg";
 const About = () => {
@@ -57,9 +57,9 @@ const About = () => {
           <SwiperSlide className="about_meimg">
             <img src={Me3} alt="About Image" />
           </SwiperSlide>
-          <SwiperSlide className="about_meimg">
+          {/* <SwiperSlide className="about_meimg">
             <img src={Me4} alt="About Image" />
-          </SwiperSlide>
+          </SwiperSlide> */}
           <SwiperSlide className="about_meimg">
             <img src={Me5} alt="About Image" />
           </SwiperSlide>
@@ -89,10 +89,12 @@ const About = () => {
             </article>
           </div>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia,
-            quidem! Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Vitae quos voluptatum sit aspernatur voluptates consequatur iste
-            necessitatibus, suscipit voluptatem earum?
+         Hello Dear!
+         <br />
+         My name is Yogesh Sahu I am a frontend developer I am also working on my logical thinking and problem solving part
+         I am always curious to learn the new thinks/technology. 
+         <br />
+         Now I am finding the place where I can implement My programming knowledege/thinking in the real world problem
           </p>
           <Link
             to="contant"
